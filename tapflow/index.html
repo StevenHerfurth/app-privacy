@@ -1,1 +1,197 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TapFlow – Datenschutzerklärung / Privacy Policy</title>
+<meta name="description" content="Datenschutzerklärung der Android-App TapFlow – Auto Clicker &amp; Automation / Privacy policy of the Android app TapFlow.">
+<style>
+  :root {
+    --bg: #ffffff;
+    --fg: #1d2330;
+    --muted: #5b6475;
+    --accent: #2f6fde;
+    --box: #f2f5fb;
+    --line: #dde3ee;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #12151c;
+      --fg: #e6e9f0;
+      --muted: #9aa3b5;
+      --accent: #7aa7ff;
+      --box: #1c212c;
+      --line: #2c3342;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  }
+  main { max-width: 760px; margin: 0 auto; padding: 24px 20px 64px; }
+  nav.lang {
+    display: flex; gap: 8px; justify-content: flex-end;
+    font-size: 14px; margin-bottom: 8px;
+  }
+  nav.lang a {
+    padding: 4px 12px; border: 1px solid var(--line); border-radius: 999px;
+    color: var(--fg); text-decoration: none;
+  }
+  nav.lang a:hover { border-color: var(--accent); color: var(--accent); }
+  h1 { font-size: 1.7em; line-height: 1.25; margin: 16px 0 4px; }
+  h2 { font-size: 1.25em; margin: 32px 0 8px; padding-top: 8px; border-top: 1px solid var(--line); }
+  h3 { font-size: 1.05em; margin: 20px 0 4px; }
+  p, ul { margin: 8px 0; }
+  ul { padding-left: 22px; }
+  li { margin: 4px 0; }
+  a { color: var(--accent); }
+  code { font-size: 0.92em; background: var(--box); padding: 1px 5px; border-radius: 4px; }
+  .meta { color: var(--muted); font-size: 14px; margin: 0 0 16px; }
+  .summary { background: var(--box); border-radius: 10px; padding: 12px 20px; }
+  address { font-style: normal; }
+  section.lang-block + section.lang-block { margin-top: 64px; padding-top: 24px; border-top: 3px solid var(--line); }
+</style>
+</head>
+<body>
+<main>
+
+<nav class="lang" aria-label="Sprache / Language">
+  <a href="#de" hreflang="de">Deutsch</a>
+  <a href="#en" hreflang="en">English</a>
+</nav>
+
+<!-- ============================ DEUTSCH ============================ -->
+<section class="lang-block" id="de" lang="de">
+
+<h1>Datenschutzerklärung für TapFlow – Auto Clicker &amp; Automation</h1>
+<p class="meta">Stand: 15.10.2026 · gilt für die Android-App „TapFlow“ (Paket <code>com.seenus.tapflow</code>) ab Version 1.0</p>
+
+<h2>1. Verantwortlicher</h2>
+<address>
+  [Vorname Nachname / Firmenname]<br>
+  [Straße Hausnummer]<br>
+  [PLZ Ort]<br>
+  [Land]<br>
+  E-Mail: <a href="mailto:kontakt@example.com">[kontakt@example.com]</a>
+</address>
+
+<h2>2. Kurzfassung</h2>
+<div class="summary">
+<ul>
+  <li>TapFlow erhebt <strong>keine personenbezogenen Daten</strong> und überträgt <strong>keine Daten an uns oder an Dritte</strong>.</li>
+  <li>Die App hat <strong>keinen Internetzugriff</strong>. Sie enthält keine Werbung, keine Analyse- oder Tracking-Werkzeuge und keine Absturzberichte an Dritte.</li>
+  <li>Alle Profile, Flows und Einstellungen werden <strong>nur lokal auf deinem Gerät</strong> gespeichert.</li>
+  <li>Für Farbwächter und Farbbedingungen liest TapFlow <strong>nur die Farbe an den Punkten, die du festlegst</strong>. Bilder werden weder gespeichert noch versendet.</li>
+</ul>
+</div>
+
+<h2>3. Welche Daten die App auf deinem Gerät verarbeitet</h2>
+
+<h3>3.1 Profile, Flows und Einstellungen</h3>
+<p>Die von dir angelegten Profile, Flows, Farbwächter und Aktionen (z. B. Bildschirmkoordinaten, Wartezeiten, Wiederholungen, gesuchte Farbwerte) sowie die App-Einstellungen (z. B. Klickdauer, Position der Steuerleiste) speichert TapFlow in einer lokalen Datenbank auf deinem Gerät. Diese Daten verlassen das Gerät nicht durch die App. Du kannst sie jederzeit in der App löschen; beim Deinstallieren der App werden sie vollständig entfernt.</p>
+
+<h3>3.2 Bedienungshilfe (Accessibility Service)</h3>
+<p>TapFlow nutzt die Android-Bedienungshilfen-Schnittstelle (AccessibilityService API) ausschließlich für folgende Zwecke:</p>
+<ul>
+  <li><strong>Gesten ausführen:</strong> Klicks, langes Drücken und Wischgesten an den von dir festgelegten Stellen, sobald du ein Profil über die TapFlow-Steuerleiste startest.</li>
+  <li><strong>Farbe prüfen (ab Android 11):</strong> Für Farbwächter, bedingte Aktionen und die Funktion „Farbe aufnehmen“ erstellt die Bedienungshilfe kurzzeitig ein Bildschirmabbild. Daraus wird nur der Farbwert an den von dir festgelegten Prüfpunkten ermittelt. Das Abbild wird direkt danach im Arbeitsspeicher verworfen, <strong>nicht gespeichert, nicht ausgewertet und nicht versendet</strong>.</li>
+</ul>
+<p>TapFlow liest <strong>keine Fensterinhalte</strong> (keine Texte, Eingaben, Passwörter oder Bedienelemente anderer Apps) und protokolliert keine Bedienungshilfe-Ereignisse. Die Bedienungshilfe wird nur aktiv, wenn du in der Steuerleiste auf Play tippst oder eine Farbe aufnimmst. Du aktivierst sie selbst in den Android-Einstellungen und kannst sie dort jederzeit wieder deaktivieren.</p>
+
+<h3>3.3 Über anderen Apps einblenden (Overlay)</h3>
+<p>Die Berechtigung „Über anderen Apps einblenden“ (<code>SYSTEM_ALERT_WINDOW</code>) wird genutzt, um die TapFlow-Steuerleiste und die Marker zum Bearbeiten über anderen Apps anzuzeigen. Dabei werden keine Daten erhoben.</p>
+
+<h3>3.4 Export und Import (JSON)</h3>
+<p>Wenn du Profile exportierst, schreibt TapFlow eine JSON-Datei an einen Speicherort, den du über die Android-Dateiauswahl selbst bestimmst. Die Datei enthält die Profildaten sowie die Bildschirmgröße deines Geräts (als Hinweis beim späteren Import). Beim Import liest TapFlow nur die Datei, die du auswählst. Was mit exportierten Dateien weiter geschieht (z. B. Weitergabe oder Speicherung in einem Cloud-Dienst), liegt in deiner Hand.</p>
+
+<h3>3.5 Android-Datensicherung</h3>
+<p>TapFlow lässt die Android-Datensicherung zu. Hast du die Sicherung in deinem Google-Konto aktiviert, kann Android die App-Daten (Profile und Einstellungen) in deine persönliche Sicherung aufnehmen und auf einem neuen Gerät wiederherstellen. Diese Sicherung führt Android bzw. Google in deinem Konto durch; wir haben darauf keinen Zugriff. Es gilt die Datenschutzerklärung von Google. Du kannst die Sicherung in den Android-Einstellungen abschalten.</p>
+
+<h2>4. Google Play</h2>
+<p>TapFlow wird über Google Play vertrieben. Beim Herunterladen und bei Updates verarbeitet Google Daten in eigener Verantwortung, z. B. für Kontoverwaltung, Installation und Statistiken. Dafür gilt die Datenschutzerklärung von Google: <a href="https://policies.google.com/privacy?hl=de" rel="noopener">https://policies.google.com/privacy</a>. Von Google Play erhalten wir allenfalls zusammengefasste, anonyme Statistiken (z. B. Anzahl der Installationen, Absturzhäufigkeit), die keinen Rückschluss auf einzelne Personen zulassen.</p>
+
+<h2>5. Weitergabe von Daten</h2>
+<p>Es findet keine Weitergabe von Daten statt, da TapFlow keine Daten an uns oder Dritte übermittelt.</p>
+
+<h2>6. Kinder</h2>
+<p>TapFlow richtet sich nicht gezielt an Kinder und erhebt auch von Kindern keine personenbezogenen Daten.</p>
+
+<h2>7. Deine Rechte</h2>
+<p>Da wir keine personenbezogenen Daten über dich verarbeiten, können wir in der Regel keine Auskunft über gespeicherte Daten geben. Unabhängig davon hast du nach der DSGVO das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit und Widerspruch sowie das Recht, dich bei einer Datenschutz-Aufsichtsbehörde zu beschweren. Für Fragen zum Datenschutz erreichst du uns unter der oben genannten E-Mail-Adresse.</p>
+
+<h2>8. Änderungen</h2>
+<p>Wir passen diese Datenschutzerklärung an, wenn sich die App oder die rechtlichen Vorgaben ändern. Es gilt die jeweils unter dieser Adresse veröffentlichte Fassung.</p>
+
+</section>
+
+<!-- ============================ ENGLISH ============================ -->
+<section class="lang-block" id="en" lang="en">
+
+<h1>Privacy Policy for TapFlow – Auto Clicker &amp; Automation</h1>
+<p class="meta">Last updated: 15 October 2026 · applies to the Android app “TapFlow” (package <code>com.seenus.tapflow</code>) from version 1.0</p>
+
+<h2>1. Controller</h2>
+<address>
+  [First name Last name / Company]<br>
+  [Street and number]<br>
+  [Postal code, City]<br>
+  [Country]<br>
+  Email: <a href="mailto:contact@example.com">[contact@example.com]</a>
+</address>
+
+<h2>2. Summary</h2>
+<div class="summary">
+<ul>
+  <li>TapFlow <strong>does not collect any personal data</strong> and <strong>does not transmit any data to us or to third parties</strong>.</li>
+  <li>The app has <strong>no internet access</strong>. It contains no ads, no analytics or tracking tools, and no third-party crash reporting.</li>
+  <li>All profiles, flows and settings are stored <strong>locally on your device only</strong>.</li>
+  <li>For color watchers and color conditions, TapFlow reads <strong>only the color at the points you define</strong>. No images are stored or sent.</li>
+</ul>
+</div>
+
+<h2>3. Data processed by the app on your device</h2>
+
+<h3>3.1 Profiles, flows and settings</h3>
+<p>The profiles, flows, color watchers and actions you create (e.g. screen coordinates, delays, repetitions, target colors) and the app settings (e.g. click duration, control bar position) are stored in a local database on your device. The app does not send this data off the device. You can delete it in the app at any time; uninstalling the app removes it completely.</p>
+
+<h3>3.2 Accessibility service</h3>
+<p>TapFlow uses the Android AccessibilityService API solely for the following purposes:</p>
+<ul>
+  <li><strong>Performing gestures:</strong> taps, long presses and swipes at the positions you define, once you start a profile from the TapFlow control bar.</li>
+  <li><strong>Checking colors (Android 11 and later):</strong> for color watchers, conditional actions and the “Pick color” function, the accessibility service briefly takes a screenshot. Only the color value at the check points you defined is read from it. The screenshot is discarded in memory immediately afterwards and is <strong>not stored, analyzed or sent</strong>.</li>
+</ul>
+<p>TapFlow <strong>does not read window content</strong> (no text, input, passwords or UI elements of other apps) and does not log accessibility events. The service is only active when you tap Play in the control bar or pick a color. You enable it yourself in the Android settings and can disable it there at any time.</p>
+
+<h3>3.3 Display over other apps (overlay)</h3>
+<p>The “Display over other apps” permission (<code>SYSTEM_ALERT_WINDOW</code>) is used to show the TapFlow control bar and the editing markers on top of other apps. No data is collected in the process.</p>
+
+<h3>3.4 Export and import (JSON)</h3>
+<p>When you export profiles, TapFlow writes a JSON file to a location you choose via the Android file picker. The file contains the profile data and your device’s screen size (as a hint for later imports). On import, TapFlow reads only the file you select. What happens to exported files afterwards (e.g. sharing them or storing them in a cloud service) is up to you.</p>
+
+<h3>3.5 Android backup</h3>
+<p>TapFlow allows Android backup. If you have enabled backup to your Google account, Android may include the app data (profiles and settings) in your personal backup and restore it on a new device. This backup is performed by Android/Google within your account; we have no access to it. Google’s privacy policy applies. You can turn off backup in the Android settings.</p>
+
+<h2>4. Google Play</h2>
+<p>TapFlow is distributed via Google Play. When you download or update the app, Google processes data under its own responsibility, e.g. for account management, installation and statistics. Google’s privacy policy applies: <a href="https://policies.google.com/privacy?hl=en" rel="noopener">https://policies.google.com/privacy</a>. From Google Play we receive at most aggregated, anonymous statistics (e.g. number of installs, crash rates) that do not identify individual users.</p>
+
+<h2>5. Sharing of data</h2>
+<p>No data is shared, since TapFlow does not transmit any data to us or to third parties.</p>
+
+<h2>6. Children</h2>
+<p>TapFlow is not specifically directed at children and does not collect personal data from children either.</p>
+
+<h2>7. Your rights</h2>
+<p>Since we do not process any personal data about you, we are generally unable to provide information about stored data. Regardless of this, under the GDPR you have the right of access, rectification, erasure, restriction of processing, data portability and objection, as well as the right to lodge a complaint with a data protection supervisory authority. For privacy questions, you can reach us at the email address above.</p>
+
+<h2>8. Changes</h2>
+<p>We will update this privacy policy if the app or legal requirements change. The version published at this address applies.</p>
+
+</section>
+
+</main>
+</body>
+</html>
 
